@@ -4,24 +4,48 @@ import Button from '../common/Button';
 import ProjectList from './ProjectList';
 
 const Wrapper = styled.div`
-  width : 490px;
+  width : 640px;
     height : 300px;
-    background : lightgray;
+    border : 0.1px gray solid;
+    border-radius : 5px;
     display : inline-block;
     padding : 24px;
     div{
         margin-bottom : 20px;
     }
 `
-const Spacer = styled.div`
-  height : 1.5rem;
+const Title = styled.div`
+display : inline-block;
+margin-right : 100px
 `
+const AddProgram = styled.button`
+    display : inline-block;
+`
+const DeleteProgram = styled.button`
+    display : inline-block;
+`
+const SearchInput = styled.input`
+    display : inline-block;
+    width : 150px;
+    height : 19px;
+    float : right;
+    margin-right : 10px
+`
+const SearchButton = styled.button`
+    display : inline-block;
+    float : right;
+`
+
 
 const Projects = () => {
     return(
         <>
         <Wrapper>
-            <div>프로그램 리스트</div>
+            <Title>프로그램 리스트</Title>
+            <AddProgram>프로그램 추가</AddProgram>
+            <DeleteProgram>프로그램 삭제</DeleteProgram>
+            <SearchButton>검색</SearchButton>
+            <SearchInput/>
             <ProjectList/>
         </Wrapper>
         </>

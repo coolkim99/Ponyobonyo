@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from '../common/Button';
 
 const ListDiv = styled.div`
-    border : 1px solid black;
+    border : 1px solid lightgray;
     height : 87%;
 `
 
