@@ -1,6 +1,7 @@
 import react from 'react';
 import styled from 'styled-components';
 import program from '../../data/program';
+import Button from '../common/Button';
 
 const ListDiv = styled.div`
     border : 1px solid lightgray;
@@ -49,7 +50,27 @@ const Exe = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
     width : 450px;
-    text-align: center;
+    text-align: right;
+`
+
+const Recode = styled(Button)`
+    background : white;
+    color : black;
+    border : 0.1px gray solid;
+    padding : 0.5px;
+    font-size : 0.9em;
+    font-weight: normal;
+    border-radius: 2px;
+`
+
+const Write = styled(Button)`
+    background : white;
+    color : black;
+    border : 0.1px gray solid;
+    padding : 0.5px;
+    font-size : 0.9em;
+    font-weight: normal;
+    border-radius: 2px;
 `
 
 const StudentElemtents = ({student}) => {
@@ -61,7 +82,10 @@ const StudentElemtents = ({student}) => {
             <Parent>{student.parentName}</Parent>
             <Phone>{student.phone}</Phone>
             <Relationship>{student.relationship}</Relationship>
-            <Exe>없음</Exe>
+            <Exe>
+                <Recode to='/homerecord'>가정기록 조회</Recode>
+                <Write>치료일지 작성</Write>
+            </Exe>
         </Wrapper>
         </>
     );

@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import MainPage from './pages/MainPage';
-
+import HomeRecordPage from './pages/HomeRecordPage';
 
 const Router = () => {
     return (
@@ -13,6 +13,7 @@ const Router = () => {
         <Route component={LoginPage} path='/login'/>
         <Route component={RegisterPage} path='/register'/>
         <Route component={MainPage} path='/main'/>
+        <Route component={HomeRecordPage} path='/homerecord'/>
         </BrowserRouter>
     );
 };
