@@ -1,6 +1,7 @@
 import react from 'react';
 import styled from 'styled-components';
 import Button from '../common/Button';
+import StudentContainer from '../../container/main/StudentContainer';
 
 const ListDiv = styled.div`
     border : 1px solid lightgray;
@@ -53,7 +54,7 @@ const Exe = styled.div`
 `
 
 
-const Students = () => {
+const StudentList = () => {
     return(
         <>
         <ListDiv>
@@ -65,9 +66,10 @@ const Students = () => {
                 <RelationshipTitle>보호자 관계</RelationshipTitle>
                 <Exe>비고</Exe>
             </TableHeader>
+            <StudentContainer/>
         </ListDiv>
         </>
     );
 }
 
-export default Students;
+export default StudentList;

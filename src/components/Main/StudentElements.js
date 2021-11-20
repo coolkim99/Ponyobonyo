@@ -1,9 +1,14 @@
 import react from 'react';
 import styled from 'styled-components';
+import program from '../../data/program';
 
 const ListDiv = styled.div`
     border : 1px solid lightgray;
     height : 87%;
+`
+const Wrapper = styled.div`
+    border-bottom : 0.1px black solid;
+    
 `
 
 const Name = styled.div`
@@ -43,22 +48,23 @@ const Relationship = styled.div`
 const Exe = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 600px;
+    width : 450px;
     text-align: center;
 `
 
-const StudentElemtents = ({name, birthday, phone, parentName, relationship}) => {
-    <ListDiv>
-        <Name>{name}</Name>
-        <Birthday>{birthday}</Birthday>
-        <Phone>{phone}</Phone>
-        <Parent>{parentName}</Parent>
-        <Phone>{phone}</Phone>
-        <Relationship>{relationship}</Relationship>
-        <Exe>
-            
-        </Exe>
-    </ListDiv>
+const StudentElemtents = ({student}) => {
+    return(
+        <>
+        <Wrapper>
+            <Name>{student.name}</Name>
+            <Birthday>{student.birthday}</Birthday>
+            <Parent>{student.parentName}</Parent>
+            <Phone>{student.phone}</Phone>
+            <Relationship>{student.relationship}</Relationship>
+            <Exe>없음</Exe>
+        </Wrapper>
+        </>
+    );
 }
 
 export default StudentElemtents;

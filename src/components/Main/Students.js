@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Button from '../common/Button';
 import StudenList from '../Main/StudenList';
 
+
 const Wrapper = styled.div`
   width : 1300px;
     height : 400px;
@@ -11,8 +12,12 @@ const Wrapper = styled.div`
     padding : 24px;
     margin-top : 2px;
     div{
-        margin-bottom : 24px;
     }
+`
+
+const A = styled.div`
+    margin-bottom : 24px;
+
 `
 
 const Title = styled.div`
@@ -41,11 +46,13 @@ const Students = () => {
     return(
         <>
         <Wrapper>
-            <Title>수강생 리스트</Title>
-            <AddProgram>수강생 추가</AddProgram>
-            <DeleteProgram>수강생 삭제</DeleteProgram>
-            <SearchButton>검색</SearchButton>
-            <SearchInput/>
+            <A>
+                <Title>수강생 리스트</Title>
+                <AddProgram>수강생 추가</AddProgram>
+                <DeleteProgram>수강생 삭제</DeleteProgram>
+                <SearchButton>검색</SearchButton>
+                <SearchInput/>
+            </A>
             <StudenList/>
         </Wrapper>
         </>
