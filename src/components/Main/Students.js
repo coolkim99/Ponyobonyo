@@ -11,8 +11,6 @@ const Wrapper = styled.div`
     border-radius : 5px;
     padding : 24px;
     margin-top : 2px;
-    div{
-    }
 `
 
 const A = styled.div`

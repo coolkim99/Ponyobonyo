@@ -10,9 +10,11 @@ const Wrapper = styled.div`
     border-radius : 5px;
     display : inline-block;
     padding : 24px;
-    div{
-        margin-bottom : 20px;
-    }
+`
+
+const A = styled.div`
+    margin-bottom : 24px;
+
 `
 const Title = styled.div`
 display : inline-block;
@@ -41,11 +43,13 @@ const Projects = () => {
     return(
         <>
         <Wrapper>
-            <Title>프로그램 리스트</Title>
-            <AddProgram>프로그램 추가</AddProgram>
-            <DeleteProgram>프로그램 삭제</DeleteProgram>
-            <SearchButton>검색</SearchButton>
-            <SearchInput/>
+            <A>
+                <Title>프로그램 리스트</Title>
+                <AddProgram>프로그램 추가</AddProgram>
+                <DeleteProgram>프로그램 삭제</DeleteProgram>
+                <SearchButton>검색</SearchButton>
+                <SearchInput/>
+            </A>
             <ProjectList/>
         </Wrapper>
         </>

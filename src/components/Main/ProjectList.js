@@ -1,6 +1,7 @@
 import react from 'react';
 import styled from 'styled-components';
 import Button from '../common/Button';
+import ProgramContainer from '../../container/main/ProgramContainer';
 
 const ListDiv = styled.div`
     border : 1px solid lightgray;
@@ -49,6 +50,7 @@ const Projects = () => {
                 <TimeTitle>시간</TimeTitle>
                 <InstructorTitle>강사</InstructorTitle>
             </TableHeader>
+            <ProgramContainer/>
         </ListDiv>
         </>
     );
