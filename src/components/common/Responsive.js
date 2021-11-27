@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ResponsiveBlock = styled.div`
-    width: 1500px;
+    width: 1300px;
     margin: 0 auto; /* 중앙 정렬 */
 `;
 

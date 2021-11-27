@@ -5,7 +5,7 @@ import StudenList from '../Main/StudenList';
 
 
 const Wrapper = styled.div`
-  width : 1300px;
+  width : 1100px;
     height : 400px;
     border : 0.1px gray solid;
     border-radius : 5px;

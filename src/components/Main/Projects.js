@@ -4,7 +4,7 @@ import Button from '../common/Button';
 import ProjectList from './ProjectList';
 
 const Wrapper = styled.div`
-  width : 640px;
+  width : 550px;
     height : 300px;
     border : 0.1px gray solid;
     border-radius : 5px;
