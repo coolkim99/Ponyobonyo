@@ -5,6 +5,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import MainPage from './pages/MainPage';
 import HomeRecordPage from './pages/HomeRecordPage';
+import DiaryPage from './pages/DiaryPage';
 
 const Router = () => {
     return (
@@ -14,6 +15,7 @@ const Router = () => {
         <Route component={RegisterPage} path='/register'/>
         <Route component={MainPage} path='/main'/>
         <Route component={HomeRecordPage} path='/homerecord'/>
+        <Route component={DiaryPage} path='/diary'/>
         </BrowserRouter>
     );
 };
