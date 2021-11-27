@@ -84,7 +84,7 @@ const StudentElemtents = ({student}) => {
             <Phone>{student.phone}</Phone>
             <Relationship>{student.relationship}</Relationship>
             <Exe>
-                <Recode>가정기록 조회</Recode>
+                <Recode to="/diary">가정기록 조회</Recode>
                 <Write to='/homerecord'>치료일지 작성</Write>
             </Exe>
         </Wrapper>

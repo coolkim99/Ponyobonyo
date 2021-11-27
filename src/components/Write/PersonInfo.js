@@ -72,7 +72,7 @@ const PersonInfo = () => {
                 <Relationship>보호자 관계</Relationship>
                 <Phone>000-0000-0000</Phone>
             </Info>
-            <Recode>가정일지 조회</Recode>
+            <Recode to="/diary">가정일지 조회</Recode>
         </Wrapper>
     </>
     );
