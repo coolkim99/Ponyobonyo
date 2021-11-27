@@ -28,7 +28,7 @@ const DeleteProgram = styled.button`
 `
 const SearchInput = styled.input`
     display : inline-block;
-    width : 150px;
+    width : 100px;
     height : 19px;
     float : right;
     margin-right : 10px

@@ -16,27 +16,27 @@ const TableHeader = styled.div`
 const ProgramTitle = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 200px;
+    width : 160px;
     text-align: center;
     
 `
 const ClassRoomTitle = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 50px;
+    width : 45px;
     text-align: center;
 `
 
 const TimeTitle = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 200px;
+    width : 190px;
     text-align: center;
 `
 
 const InstructorTitle = styled.div`
     display : inline-block;
-    width : 185px;
+    width : 150px;
     text-align: center;
 `
 

@@ -15,41 +15,41 @@ const TableHeader = styled.div`
 const NameTitle = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 150px;
+    width : 140px;
     text-align: center;
     
 `
 const BirthdayTitle = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 150px;
+    width : 130px;
     text-align: center;
 `
 
 const PhoneTitle = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 200px;
+    width : 170px;
     text-align: center;
 `
 const ParentTitle = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 150px;
+    width : 140px;
     text-align: center;
 `
 
 const RelationshipTitle = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 150px;
+    width : 140px;
     text-align: center;
 `
 
 const Exe = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 450px;
+    width : 330px;
     text-align: center;
 `
 

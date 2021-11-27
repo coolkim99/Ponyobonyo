@@ -15,41 +15,40 @@ const Wrapper = styled.div`
 const Name = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 150px;
+    width : 140px;
     text-align: center;
     
 `
 const Birthday = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 150px;
+    width : 130px;
     text-align: center;
 `
 const Parent = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 150px;
+    width : 140px;
     text-align: center;
 `
 
 const Phone = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 200px;
+    width : 170px;
     text-align: center;
 `
-
 const Relationship = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 150px;
+    width : 140px;
     text-align: center;
 `
 
 const Exe = styled.div`
     display : inline-block;
     border-right : 0.1px black solid;
-    width : 450px;
+    width : 330px;
     text-align: right;
 `
 
@@ -61,6 +60,7 @@ const Recode = styled(Button)`
     font-size : 0.9em;
     font-weight: normal;
     border-radius: 2px;
+    margin-right : 4px;
 `
 
 const Write = styled(Button)`
@@ -71,6 +71,7 @@ const Write = styled(Button)`
     font-size : 0.9em;
     font-weight: normal;
     border-radius: 2px;
+    margin-right : 4px;
 `
 
 const StudentElemtents = ({student}) => {

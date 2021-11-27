@@ -6,7 +6,7 @@ import interaction from '@fullcalendar/interaction';
 import './calender.scss';
 
 const Cal = styled.div`
-  width : 500px;
+  width : 498px;
   height : 300px;
   float :right;
   display : inline-block;

@@ -20,7 +20,7 @@ const A = styled.div`
 
 const Title = styled.div`
     display : inline-block;
-    margin-right : 800px;
+    margin-right : 640px;
 `
 const AddProgram = styled.button`
     display : inline-block;
