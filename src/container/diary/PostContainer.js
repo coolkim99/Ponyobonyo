@@ -17,6 +17,11 @@ const PostContainer = () => {
             date: "2021.09.20",
             contents: "열심히 수업에 참여한 00이입니다."
         },
+        {
+            title: "오늘 수업시간 모습입니다.",
+            date: "2021.09.20",
+            contents: "열심히 수업에 참여한 00이입니다."
+        },
     ]
     return (
         <>
