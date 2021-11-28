@@ -1,6 +1,7 @@
 import React from 'react';
 
 const HomePage = ( { history } ) => {
+    
     function linkto(page) {
         history.push(page);
     };

@@ -18,7 +18,14 @@ const ProgramContainer = () => {
             instructor: '홍길동'
         },
         {
-            id: 2,
+            id: 3,
+            name: '음악치료',
+            classroom: '01',
+            time: '토 10:00-12:00',
+            instructor: '홍길동'
+        },
+        {
+            id: 4,
             name: '음악치료',
             classroom: '01',
             time: '토 10:00-12:00',
