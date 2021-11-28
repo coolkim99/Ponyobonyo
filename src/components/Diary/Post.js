@@ -2,7 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-    width : 1100px;
+    width : 1050px;
+    padding : 10px;
+    background-color : #ededed;
+    margin : 10px;
 `
 const Header = styled.div`
     display : flex;
@@ -20,17 +23,17 @@ const Date = styled.div`
     float : right;
 `
 const Contents = styled.div`
-
+    padding : 20px 0;
 `
 
-const Post = ({ title }) => {
+const Post = ({ post }) => {
     return(
         <Wrapper>
             <Header>
-                <Title>제목 : {title}</Title>
-                <Date>날짜 : 00.00.00</Date>
+                <Title>제목 : {post.title}</Title>
+                <Date>날짜 : {post.date}</Date>
             </Header>
-            <Contents></Contents>
+            <Contents>{post.contents}</Contents>
         </Wrapper>
     );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Post from "./Post";
+import PostContainer from "../../container/diary/PostContainer";
 
 const PostsBlock = styled.div`
   width : 1100px;
@@ -13,7 +13,7 @@ const PostsBlock = styled.div`
 const Posts = () => {
     return (
         <PostsBlock>
-            <Post/>
+            <PostContainer/>
         </PostsBlock>
     );
 }

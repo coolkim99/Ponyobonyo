@@ -12,16 +12,16 @@ const ProgramContainer = () => {
         },
         {
             id: 2,
-            name: '심리치료',
+            name: '미술치료',
             classroom: '01',
-            time: '월수금 10:00-12:00',
+            time: '화목 10:00-12:00',
             instructor: '홍길동'
         },
         {
             id: 2,
-            name: '심리치료',
+            name: '음악치료',
             classroom: '01',
-            time: '월수금 10:00-12:00',
+            time: '토 10:00-12:00',
             instructor: '홍길동'
         },
       ];
